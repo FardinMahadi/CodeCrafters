@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  display: grid;
+  gap: 5px;
+  /* grid-template-columns: auto auto auto auto auto; */
+  grid-template-columns: 1fr 2fr 3fr;
+  /* grid-template-rows: 1fr 2fr 2fr; */
+}
+
+.child {
+  /* height: 100px; */
+  /* width: 100px; */
+  background: red;
+}
+
+/* #five {
+  grid-column: span 2;
+  grid-row: span 2;
+} */

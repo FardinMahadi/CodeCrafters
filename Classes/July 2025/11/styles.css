@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap");
+
+.font-style {
+  color: red;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Manufacturing Consent", system-ui; */
+  /* font-style: normal; */
+  /* font-weight: 900; */
+  /* font-style: oblique; */
+  font-size: 52px; /* default font size == 16px */
+  /* property: value; */
+}
+
+.cinzel-<uniquifier > {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.test-font {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* html -> link add
+css -> font-family change
+
+1. sorasori html file e link copy kore
+2. css file e import kore*/

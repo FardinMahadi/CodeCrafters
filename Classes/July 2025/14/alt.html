@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a {
+        font-size: 24px;
+        color: red;
+      }
+
+      a[href] {
+        color: blue;
+      }
+
+      a[href="www.facebook.com"] {
+        color: green;
+      }
+
+      /* html,body  */
+      html[data-theme="dark"] {
+        font-size: 20px;
+        background: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="www.facebook.com">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+    </div>
+  </body>
+</html>
