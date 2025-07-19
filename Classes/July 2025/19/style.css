@@ -1,0 +1,51 @@
+#cng {
+  height: 100px;
+  width: 100px;
+  background: red;
+  animation: cng 3s 1s infinite;
+}
+
+@keyframes cng {
+  from {
+    background: red;
+  }
+  to {
+    transform: rotate(360deg);
+    background: green;
+  }
+}
+
+.loading {
+  width: 80%;
+  background: gray;
+  height: 10px;
+}
+
+.loading > div {
+  height: 100%;
+  background: yellow;
+  animation: loading 2s infinite;
+}
+
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+
+  50% {
+    background: green;
+    width: 70%;
+  }
+
+  100% {
+    background: red;
+    width: 100%;
+  }
+}
+
+.tranform {
+  height: 100px;
+  width: 100px;
+  background: brown;
+  transform: translateY(50px);
+}
